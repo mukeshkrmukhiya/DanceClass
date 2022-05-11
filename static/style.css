@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+}
+#navbar{
+    background-color: rgb(17, 16, 16);
+    padding: 1rem 0;
+    font-family: 'Lato', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;   
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+}
+
+#introSection{
+    height: 45vh;
+    
+    background-color: aquamarine;
+    background: center / cover no-repeat url("/static/bg1.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem; 
+    font-weight: bold;
+
+}
+
+#introSection #small {
+    font-size: 1.5rem;
+}
+
+#sponsorsSection{
+    height: 39vh;
+    
+    background-color: aquamarine;
+    background: center / cover no-repeat url("/static/bg2.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem; 
+    font-weight: bold;
+}
+
+/* #missionSection{
+    display: flex;
+    color: black;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center
+} */
+#missionSection h2{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.card{
+    height: 23vh;
+    width: 27.5vw;
+    border: 3px solid blue;
+    border-radius: 1rem;
+    background-color: bisque;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem 2rem;
+
+
+}
+
+.card p {
+    color: black;
+}
+#footer{
+    height: 10vh;
+    background-color: rgb(11, 102, 72);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem; 
+    font-weight: bold;
+
+}

@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    title Monk Dance Class
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Services]
+            li #[a(href='/') DanceInfo]
+            li #[a(href='/') ContactUs]
+
+    section#introSection
+        div Wellcome to Dance Class 
+        div#small Exprice new aspects of lifes
+
+    section#sponsorsSection
+        | our sponsors 
+    
+    section#missionSection
+        h2 Our Missions
+        div.card 
+            p This is para
+        div.card 
+            p This is para
+        div.card 
+            p This is para
+    
+    section#footer
+        | footer
+
+    script
+      include ../static/script.js
